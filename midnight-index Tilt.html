@@ -1,0 +1,272 @@
+<?php
+$contact_email = htmlspecialchars($_POST["contact_email"]);
+$name =  htmlspecialchars($_POST["name"]);
+$message =  htmlspecialchars($_POST["message"]);
+$subscription =  htmlspecialchars($_POST["subscription_email"]);
+if ($subscription) {
+    $servername = "localhost";
+    $username = "cory";
+    $password = "clemson2332";
+    $dbname = "emails";
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    } 
+    $sql = "INSERT INTO subscriptions (email) VALUES ('$subscription')";
+    if ($conn->query($sql) === TRUE) {
+        echo "";
+    } else {
+        echo "";
+    }
+    $conn->close();
+}   
+if ($name and $contact_email and $message) {
+    $x = rand(1, 2);
+    if ($x == 1) {
+    $send_message = $name . "\n" . $contact_email . "\n" . $message;
+    mail("coryedwardalthoff@gmail.com","My subject",$send_message);
+    }
+    else {
+        $send_message = $name . "\n" . $contact_email . "\n" . $message;
+        mail("coryedwardalthoff@gmail.com","My subject",$send_message);
+    }
+}
+?>
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script
+  
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+    <meta charset="utf-8">
+    <title>Midnight Express | Build the late-night transit system you want.</title>
+    <meta name="description" content="A platform built to connect people with buses.">
+    
+
+
+    <!-- Mobile Specific Metas
+  ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+  ================================================== -->
+    <link rel="stylesheet" href="stylesheets/base.css">
+    <link rel="stylesheet" href="stylesheets/skeleton.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/layout.css">
+    <link href='http://fonts.googleapis.com/css?family=lato:300,400,600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+     <link rel="shortcut icon" href="images/favicon1.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="stylesheets/animate.css">
+
+</head>
+<body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57953888-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<div id="header">
+    <div class="container">
+        <header class="sixteen columns">
+            <h1 id="logo">
+                <img class="animated fadeInDown" src="images/logo.png"/>
+            </h1>
+            <nav>
+                <ul class="animated fadeInDown">
+                    <li class="home"><a href="/faq" target="_blank">FAQ</a></li>
+                    <li class="contact"><a href="/contact" target="_blank">Contact</a></li>
+                 </ul>
+             </nav>
+        </header>
+        <div id="marketing" class="sixteen columns">
+            <h1 id="headline" class="animated fadeInLeftBig" style="font-family: 'Montserrat', Helvetica, Arial, sans-serif; color:#fff; text-alight:center;">Build the transit system you want in the Bay.</h1>
+            <h2  class="animated fadeIn">A platform that lets you decide where and when buses run.</h2>
+            <a href="https://www.tilt.com/users/mhorton33" class="animated fadeIn" target="_blank">Reserve your seat</a> 
+        </div>
+    </div>
+</div>
+
+
+<!-- Beginnig of As seen on Section -->
+
+<div id="press">
+    <div class="container">
+        <h4 class="animated fadeIn">Featured on</h4>
+         <ul>
+            <li class="animated fadeInUp"><a href="http://www.7x7.com/travel/new-late-night-shuttle-transports-techies-sf-south-bay" target="_blank"><img class="scale-with-grid" src="images/Press/7x7Logo.png"></a></li>
+            <li class="animated fadeInUp" ><a href="http://bit.ly/1wMzJW6" target="_blank"><img class="scale-with-grid" src="images/Press/BoldLogo.png"></a></li>
+            <li class="animated fadeInUp" ><a href="https://www.youtube.com/watch?v=dB8kUkL-heI&feature=youtu.be" target="_blank"><img class="scale-with-grid" src="images/Press/ktvuLogo.png"></a></li>
+            <li class="animated fadeInUp" ><a href="http://bit.ly/1zMyTfv" target="_blank"><img class="scale-with-grid" src="images/Press/MissionLocalLogo.png"></a></li>
+            <li class="animated fadeInUp" ><a href="http://bit.ly/1rtTySN" target="_blank"><img class="scale-with-grid" src="images/Press/MetroLogo.png"></a></li>
+            <li class="animated fadeInUp" ><a href="http://www.padailypost.com/" target="_blank"><img class="scale-with-grid" src="images/Press/DailyPostLogo.png"></a></li>
+           
+        </ul>
+    </div>    
+</div>   
+
+
+<!--Beginnig of "How to ride" Section--> 
+
+<div id="Catch_Ride"> 
+    <div class="container">
+        <h4>How it works</h4>  
+        <h2>"It's like pooling money with your friends to rent a bus to drive you home. Except, instead of friends it's random people and everything is organized for you. All you have to do is donate and show up." - <em>Midnight Express</em></h2>    
+            <div id= "routeicon" class="eight columns">
+              <img class="scale-with-grid" src="images/routeicon.png"/>
+            </div>
+            <div class="eight columns">
+                <h3>Optimized Routes</h3>
+                <p>We gather data to create bus routes that go where people want to go, when they want to go there. <a href="/contact" target="_blank">Tell us</a> what times and stops you want added to help us build our next route.</p>
+            </div>
+     </div>  
+     <div class="container">       
+        <div id="donate" class="eight columns">
+            <h3>Donate to Ride</h3>
+            <p>A donation of <em>$15</em> toward the bus you want to ride saves you a seat on that bus. We use the crowdfunding site <a href="www.tilt.com" target="_blank">tilt</a> to fund buses. If the minimum tilt amount is not hit by 12 hours prior to a scheduled departure, no supporter will be charged for their donation and that bus will not run.</p>
+        </div>
+        <div id="donateicon"  class="eight columns">
+            <img class="scale-with-grid" src="images/donateicon.png"/>    
+            </div>
+     </div>
+     <div class="container">       
+        <div id="shareicon" class="eight columns">
+           <img class="scale-with-grid" src="images/shareicon2.png"/>
+        </div>
+        <div class="eight columns">
+                <h3>Spread the Word</h3>
+                <p>You can help a bus reach it's tilt goal by spreading the word. Tell your friends and share on your favorite social media channels to make sure that bus runs.</p>
+            </div>  
+    </div>
+    <div class="container">       
+        <div id="bus" class="eight columns">
+            <h3>Climb Aboard</h3>
+            <p>Once a bus hits it's donation goal, we will arrange everything and all you have to do is show up and climb aboard. You will receive an email once the bus "tilts" so you know it's a go.</p>
+        </div>
+        <div id="busicon"  class="eight columns">
+            <img class="scale-with-grid" src="images/busicon.png"/>    
+            </div>
+     </div>
+        <div id="Button">
+            <div id="Button2">
+                <a href="/faq" target="_blank">I still don't get it.</a>
+            </div>
+        </div>
+</div>
+
+
+<!--Beginnig of "The Route" Section--> 
+
+<div id="The_Route">
+    <div class="container" >
+        <h4>Routes</h4>
+        <h6>The SouthBay Express</h6>
+        <h5>Our first route finally gives people heading South a late-night option out of San Francisco.</h5>
+        <div class="row">
+            <div id="sanfranciscoStop"class="three columns">
+                <h2><strong style="color:#5e5e5e">San Francisco</strong></h2>
+                <h3><br>Caltrain Station<br><a href="https://www.google.com/maps/place/San+Francisco+Caltrain+Station/@37.776439,-122.394323,17z/data=!3m1!4b1!4m2!3m1!1s0x808f7fd6eb33becf:0xb7d880249f5a29f9" target="_blank">700 4th St.</a></h3>
+                <img class="scale-with-grid" src="images/pickupicon.png"/>
+                <p><strong style="color:#5e5e5e">Picks up:</strong><br>2:15 a.m.
+            </div>
+            <div id="paloAltoStop" class="three columns">
+                <h2><strong style="color:#5e5e5e">Palo Alto</strong></h2>
+                <h3><br>Caltrain Station<br><a href="https://www.google.com/maps/place/Palo+Alto+Caltrain+Station/@37.44307,-122.1649,17z/data=!3m1!4b1!4m2!3m1!1s0x808fbb30c8ee6e39:0x1fcc2f80a59e9a1" target="_blank">95 University Ave.</a></h3>
+                <img class="scale-with-grid" src="images/pickupicon.png"/>
+                <p><strong style="color:#5e5e5e">Drops off:</strong><br>2:55 a.m.
+            </div>
+            <div id="MountainViewStop" class="three columns">
+                <h2><strong style="color:#5e5e5e">Mountain View</strong></h2>
+                <h3><br>Caltrain Station<br><a href="https://www.google.com/maps/place/Mountain+View+Caltrain+Station/@37.393879,-122.076327,17z/data=!3m1!4b1!4m2!3m1!1s0x808fb736cbf26a39:0xacf26d9ad1fde0f8" target="_blank">600 W. Evelyn Ave.</a></h3>
+                <img class="scale-with-grid" src="images/pickupicon.png"/>
+                <p><strong style="color:#5e5e5e">Drops off:</strong><br>3:10 a.m.
+            </div>
+             <div id="SunnyvaleStop" class="three columns">
+                <h2><strong style="color:#5e5e5e">Sunnyvale</strong></h2>
+                <h3><br>Caltrain Station<br><a href="https://www.google.com/maps/place/Sunnyvale+Caltrain+Station/@37.378427,-122.030742,15z/data=!4m2!3m1!1s0x0:0x7a06a1856b6fbebb" target="_blank">121 W. Evelyn Ave.</a></h3>
+                <img class="scale-with-grid" src="images/pickupicon.png"/>
+                <p><strong style="color:#5e5e5e">Drops off:</strong><br>3:18 a.m.
+            </div>
+            <div id="SanJoseStop" class="three columns">
+                <h2><strong style="color:#5e5e5e">San Jose</strong></h2>
+                <h3><br>Caltrain Station<br><a href="https://www.google.com/maps/place/diridon+station/@37.329936,-121.902519,15z/data=!4m2!3m1!1s0x0:0x9e3ba7280649281a?sa=X&ei=YDSTVMKDCIrToASF1oLACw&ved=0CI8BEPwSMAs" target="_blank">65 Cahill St.</a></h3>
+                <img class="scale-with-grid" src="images/pickupicon.png"/>
+                <p><strong style="color:#5e5e5e">Drops off:</strong><br>3:40 a.m.
+            </div>
+        </div>
+        <h1>Have an idea for a new route, stop or time? <a href="/contact" target="_blank">Suggest it here!</a></h5> 
+    </div>  
+</div>
+
+
+<!--Beginnig of "Order your Ticket" Section-->
+<div id="Ticket">
+    <div class="container">
+        <div class="eight columns">
+            <h4>Reserve a seat</h4>
+            <h5>Choose the route and day you want from the options listed. Make a minimum donation of $15 per seat you want to reserve to be added to our passenger list. Then all you have to do is show up.<br>
+            <br>If the bus does not hit it's tilt donation goal, you will not be charged and the bus will not run that night.</h5>
+        </div>
+        <div id="tilts" class="eight columns">
+        <ul>
+         <li><iframe style="height:200px; width:500px; border:0" src="https://www.tilt.com/campaigns/friday-night-southbay-express/iframe_widget?orient=h"></iframe></li> 
+         <li><iframe style="height:200px; width:500px; border:0" src="https://www.tilt.com/campaigns/saturday-night-124-southbay-express/iframe_widget?orient=h"></iframe></li>
+        </ul>
+        <p>By purchasing you are agreeing to our <a href="/terms" target="_blank">Terms of Service.</a></p> 
+        </div>
+
+    </div>
+</div>     
+
+
+<!-- Beginnig of email CTA Section -->
+
+<div id="email">
+    <div class="container">
+        <div class="twelve columns offset-by-two">
+            <h5>Stay in the loop</h5>
+            <h6>Sign up to receive our email updates about new routes, stops and times.</h6>
+            <form action = "/" method = "POST">
+                <input placeholder="enter email address" type="text" name ="subscription_email"/>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Beginnig of Footer Section --> 
+
+<div id="footer">
+    <div class="container">
+        <div class="eight columns">
+            <nav>
+                <ul>
+                    <li><a href="/FAQ" target="_blank">FAQ</a></li>
+                    <li><a href="/contact" target="_blank">Contact</a></li>
+                </ul>
+            </nav>    
+        </div>
+        <div class="eight columns right">
+            <h1 id="logo2" class="logo2">
+                <ul>
+                     <li id="facebook"><a href="https://www.facebook.com/pages/The-Midnight-Express/1553631598214581" target="_blank"><img class="scale-with-grid" src="images/FacebookIcon.png"></a></li>
+                    <li id="twitter"><a href="https://twitter.com/Ride_MidnightSF" target="_blank"><img class="scale-with-grid" src="images/TwitterIcon.png"></a></li>
+                    <li id="instagram"><a href="http://instagram.com/midnight.express" target="_blank"><img class="scale-with-grid" src="images/InstagramIcon.png"></a></li>
+                </ul>
+            </h1>
+        </div>
+    </div>
+</div>
+</body>
+</html>

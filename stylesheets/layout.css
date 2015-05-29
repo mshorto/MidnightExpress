@@ -1,0 +1,793 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+div#email h5 {
+    text-align: center;
+    margin-top: -120px;
+    margin-bottom: 0px;
+    line-height: 2.5;
+    font-size: 55px;
+}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+	div#email h5 {
+    text-align: center;
+    margin-top: -120px;
+    margin-bottom: 0px;
+    line-height: 2.5;
+    font-size: 55px;
+}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+
+div#email h5 {
+    text-align: center;
+    margin-top: -120px;
+    margin-bottom: 0px;
+    line-height: 2.5;
+    font-size: 40px;
+}
+
+    }
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+        
+header h1 {
+    width: 0%;
+    display:block;
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+header {
+    position: fixed;
+    display:inline;
+    margin-top: 0px;
+    background-color: #57576d;
+    opacity: .9;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    max-height: 40px;
+    
+}
+header nav {
+    display:inline;
+   
+}
+header nav ul {
+    display:inline;
+    float:none;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+header nav ul li {
+    margin-top: -45px;
+    font-size: 12px;
+    display:inline;
+}
+header nav ul li.selected {
+    font-size: 12px;
+    margin-top: 5px;
+    display:inline;
+    border-bottom:none;
+    padding:5px 0;
+    background-color:#57576d;
+}
+header nav ul li.home {
+    margin-left: 86px;
+    margin-bottom: 4px;
+    font-size: 12px;
+    display:inline;
+    margin-top: 5px;
+}
+header nav ul li.contact {
+    margin-top: 5px;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+header nav ul li:hover {
+    font-size: 12px;
+    margin-top: 5px;
+    display:inline;
+    text-decoration: none;
+    border-bottom:none;
+    padding:5px 0;
+    background-color:#57576d;
+}
+div#header {
+    background-image: url('../images/SFskyline-mainimage.png');
+    background-color: #57576d;
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+    min-height: 355px;
+    border-bottom: 3px solid #ffe383; 
+}
+div#marketing {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+div#marketing h1 {
+    margin-top: 35px;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+div#marketing h2 {
+    font-size: 14px;
+    line-height: 1.2;
+}
+div#marketing h3 {
+    margin-top: 40px;
+    line-height: 1.2;
+}
+div#marketing p {
+    color: #fff;
+    font-size: 10px;
+    margin-bottom: 0px;
+    margin-top: 55px;
+    font-weight: bold;
+}
+
+div#Catch_Ride img {
+    width: 50%;
+}
+div#Catch_Ride {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+div#Catch_Ride h4 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+div#Catch_Ride h2 {
+    text-align: center;
+    line-height: 1.8;
+    text-align: left;
+    color: #5e5e5e;
+    font-size: 12px;
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+}
+div#Catch_Ride h3 {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: bold;
+    margin-top: 10px;
+}
+div#Catch_Ride p {
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.2;
+}
+div#Catch_Ride img {
+    text-align: center;
+    margin-bottom: 5px;
+}
+div#routeicon {
+    margin: 10px 10px 10px 10px;
+}
+div#donate h3 {
+    margin-top: 180px;
+}
+div#donateicon img{
+   margin-top: -310px;
+}
+div#bus h3 {
+    margin-top: 170px;
+}
+div#shareicon {
+   margin: 10px 10px 10px 10px;
+}
+div#busicon img{
+   margin-top: -270px;
+   margin-bottom: 150px;
+}
+div#The_Route {
+    background-image: none;
+    background-color: #fff;
+    border-top: 2px solid #57576d;
+    border-bottom: 2px solid #57576d;
+    margin-bottom: 5px;
+}
+div#The_Route h4 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+div#The_Route h5 {
+    text-align: center;
+    font-size: 15px;
+}
+div#The_Route h2 {
+    text-align: center;
+    margin-top: 15px;
+}
+div#The_Route img {
+    margin-left: 130px;
+    text-align: center;
+    width: 0%;
+    margin-top: 12px;
+}
+div#The_Route p {
+    line-height: 1.5;
+    font-size: 18px;
+    color: #5e5e5e;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+
+div#Ticket {
+    margin-bottom: 15px;
+}
+div#Ticket h5 {
+    text-align: center;
+    font-size: 12px;
+}
+div#Ticket h4 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+div#Ticket p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+
+
+div#Contact h4 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+div#Contact { 
+    text-align: center; 
+    margin-bottom: 5px;
+}
+div#Contact p{
+    margin: 15px 0 15px 0;
+    line-height: 1.5;
+    letter-spacing: .0px;
+    font-size: 12px;
+}
+div#Contact form {
+    display: inline-table;
+}
+div#Contact input {
+    width: 250px;
+    border: 2px solid #57576d;
+    opacity: 0.73;
+    padding: 12px;
+    margin: 5px 5px 5px 5px;
+}
+
+div#Contact textarea { 
+    width: 250px;
+    height: 200px;
+    border: 2px solid #57576d;
+    opacity: 0.73;
+    padding: 12px;
+    margin-top: 12px;
+    margin: 5px 5px 5px 5px;
+}
+
+div#Ticket h4 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+div#Ticket input{
+    margin-bottom: 5px;
+}
+ 
+div#email{
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+div#email h5 {
+    text-align: center;
+    margin-top: -120px;
+    margin-bottom: 0px;
+    line-height: 2.5;
+    font-size: 20px;
+}
+
+div#email h6 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+div#email form input {
+    display: inline;
+    width: 250px;
+    border: 3px solid #ffe383;
+    opacity: 0.73;
+    padding: 12px;
+}
+div#email form button {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+div#press h4 {
+    font-size: 35px;
+    margin-top: -10px;
+    margin-bottom: -25px;
+    color: #7aa59e;
+}
+
+div#press img {
+    width: 26%;
+    margin: 8px;
+    opacity: .7;
+}
+div#press img:hover {
+    width: 26%;
+    margin: 8px;
+    opacity: 1;
+}
+div#footer {
+    margin-top: -25px;
+}
+div#footer nav {
+    max-height: 0;
+    opacity: 0;
+    display:block;
+}
+div#footer nav ul {
+    float:none;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+div#footer nav ul li {
+    display:block;
+    padding: 0px 0px 0px 0px;
+}
+div#logo2 nav ul li {
+    text-align: center;
+    display: inline;
+}
+div#footer img {
+    display: inline;
+    width: 14%;
+    margin: 10px 10px;
+    padding: 0;
+    margin-bottom: -25px;
+    margin-top: -35px;
+    opacity: 1;
+}
+div#footer img:hover {
+    display: inline;
+    width: 14%;
+    margin: 10px 10px;
+    padding: 0;
+    margin-bottom: -25px;
+    margin-top: -35px;
+    opacity: 1;
+}
+
+.right {
+    text-align: center;
+}
+
+
+}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		
+header h1 {
+	width: 0%;
+  	display:block;
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+header {
+	position: fixed;
+	display:inline;
+    margin-top: 0px;
+    background-color: #57576d;
+    opacity: .9;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    max-height: 40px; 
+}
+header nav {
+    display:inline;
+   
+}
+header nav ul {
+	display:inline;
+    float:none;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+header nav ul li {
+	margin-top: -45px;
+	font-size: 12px;
+    display:inline;
+}
+header nav ul li.selected {
+	font-size: 12px;
+	margin-top: 5px;
+	display:inline;
+    border-bottom:none;
+    padding:5px 0;
+    background-color:#57576d;
+}
+header nav ul li.home {
+	margin-left: 86px;
+	margin-bottom: 4px;
+	font-size: 12px;
+	display:inline;
+	margin-top: 5px;
+}
+header nav ul li.contact {
+	margin-top: 5px;
+	font-size: 12px;
+	margin-bottom: 4px;
+}
+header nav ul li:hover {
+	font-size: 12px;
+	margin-top: 5px;
+	display:inline;
+	text-decoration: none;
+    border-bottom:none;
+    padding:5px 0;
+    background-color:#57576d;
+}
+div#header {
+	background-image: url('../images/SFskyline-mainimage.png');
+    background-color: #57576d;
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+    min-height: 355px;
+    border-bottom: 3px solid #ffe383; 
+}
+div#marketing {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+div#marketing h1 {
+    margin-top: 35px;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+div#marketing h2 {
+	font-size: 14px;
+    line-height: 1.2;
+}
+div#marketing h3 {
+	margin-top: 40px;
+    line-height: 1.2;
+}
+div#marketing p {
+    color: #fff;
+    font-size: 10px;
+    margin-bottom: 0px;
+    margin-top: 55px;
+    font-weight: bold;
+}
+
+div#Catch_Ride img {
+	width: 50%;
+}
+div#Catch_Ride {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+div#Catch_Ride h4 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+div#Catch_Ride h2 {
+    text-align: center;
+    line-height: 1.8;
+    color: #5e5e5e;
+    font-size: 12px;
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+}
+div#Catch_Ride h3 {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: bold;
+    margin-top: 10px;
+}
+div#Catch_Ride p {
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.2;
+}
+div#Catch_Ride img {
+    text-align: center;
+    margin-bottom: 5px;
+}
+div#routeicon {
+ 	margin: 10px 10px 10px 10px;
+}
+div#shareicon img {
+    width: 0%;
+}
+
+div#shareicon {
+   margin: 10px 10px 10px 10px;
+}
+
+div#busicon {
+    margin-bottom: 20px;
+}
+
+div#The_Route {
+	background-image: none;
+	background-color: #fff;
+	border-top: 2px solid #57576d;
+	border-bottom: 2px solid #57576d;
+	margin-bottom: 5px;
+}
+div#The_Route h4 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+div#The_Route h5 {
+    text-align: center;
+    font-size: 15px;
+}
+div#The_Route h2 {
+    text-align: center;
+	margin-top: 15px;
+}
+div#The_Route img {
+    text-align: center;
+    width: 0%;
+    margin-top: 12px;
+}
+div#The_Route p {
+    line-height: 1.5;
+    font-size: 18px;
+    color: #5e5e5e;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+div#donateicon img{
+    margin-left: 10px;
+}
+
+div#Ticket {
+	margin-bottom: 15px;
+}
+div#Ticket h5 {
+    text-align: center;
+    font-size: 12px;
+}
+div#Ticket h4 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+div#Ticket p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+
+div#Contact h4 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+div#Contact { 
+	text-align: center;	
+	margin-bottom: 5px;
+}
+div#Contact p{
+    margin: 15px 0 15px 0;
+    line-height: 1.5;
+    letter-spacing: .0px;
+    font-size: 12px;
+}
+div#Contact form {
+    display: inline-table;
+}
+div#Contact input {
+    width: 250px;
+    border: 2px solid #57576d;
+    opacity: 0.73;
+    padding: 12px;
+    margin: 5px 5px 5px 5px;
+}
+
+div#Contact textarea { 
+    width: 250px;
+    height: 200px;
+    border: 2px solid #57576d;
+    opacity: 0.73;
+    padding: 12px;
+    margin-top: 12px;
+    margin: 5px 5px 5px 5px;
+}
+
+div#Ticket h4 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+div#Ticket input{
+    margin-bottom: 5px;
+}
+ 
+div#email{
+	margin-top: -10px;
+	margin-bottom: 5px;
+}
+div#email h5 {
+    text-align: center;
+    margin-top: -120px;
+    margin-bottom: 0px;
+    line-height: 2.5;
+    font-size: 20px;
+}
+
+div#email h6 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+div#email form input {
+    display: inline;
+    width: 250px;
+    border: 3px solid #ffe383;
+    opacity: 0.73;
+    padding: 12px;
+}
+div#email form button {
+	margin-left: 5px;
+	margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+div#press h4 {
+    font-size: 20px;
+    margin-top: -10px;
+    margin-bottom: -25px;
+    color: #7aa59e;
+}
+
+div#press img {
+    width: 26%;
+    margin: 8px;
+    opacity: .7;
+}
+div#press img:hover {
+    width: 26%;
+    margin: 8px;
+    opacity: 1;
+}
+div#footer {
+	margin-top: -25px;
+}
+div#footer nav {
+	max-height: 0;
+	opacity: 0;
+    display:block;
+}
+div#footer nav ul {
+    float:none;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+div#footer nav ul li {
+    display:block;
+    padding: 0px 0px 0px 0px;
+}
+div#logo2 nav ul li {
+	text-align: center;
+	display: inline;
+}
+div#footer img {
+	display: inline;
+    width: 14%;
+    margin: 10px 10px;
+    padding: 0;
+    margin-bottom: -25px;
+    margin-top: -35px;
+    opacity: 1;
+}
+div#footer img:hover {
+    display: inline;
+    width: 14%;
+    margin: 10px 10px;
+    padding: 0;
+    margin-bottom: -25px;
+    margin-top: -35px;
+    opacity: 1;
+}
+
+.right {
+    text-align: center;
+}
+
+
+	}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/

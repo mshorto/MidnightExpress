@@ -1,0 +1,246 @@
+body {
+	background-color: #e4e1ef;
+}
+h2,h3 {
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color:#d0c8ed;
+    font-size: 25px;
+    padding: 30px;
+    margin-bottom: 30px;
+    animation-delay: 0.9s;
+    -webkit-animation-delay: 0.9s;
+}
+h3 {
+    color:#57576d;
+    font-size: 25px;
+}
+
+h4 {
+    margin-bottom: -35px;
+    text-align: center;
+    line-height: 3.5;
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    font-size: 75px;
+}
+
+
+
+li.home a, a:visited {
+    color:#ffe383;
+    text-decoration: none;
+}
+
+li.faq a, a:visited {
+    color:#ffe383;
+    text-decoration: none;
+}
+
+li.contact a, a:visited {
+    color:#ffe383;
+    text-decoration: none;
+}
+
+
+div#header img {
+    width: 16%;
+    margin-left: 0px;
+    animation-delay: 0.9s;
+    -webkit-animation-delay: 0.9s;
+}
+
+header {
+    margin-top: 10px;
+    margin-bottom: -50px;
+}
+header h1 {
+    margin-top: -15px;
+    margin:0;
+    display: inline;
+}
+header nav {
+    display:inline;
+}
+header nav ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 15px;
+    margin-right: 0px;
+    animation-delay: 1.2s;
+    -webkit-animation-delay: 1.2s;
+    opacity: .8;
+}
+header nav ul li {
+    display: inline;
+    font-weight: 400;
+    margin-right: 15px;
+    line-height: 1.5;
+    letter-spacing: .2px;
+    opacity: .8;
+}
+
+header nav ul li.home {
+    color: #ffe383;
+    padding-bottom: 10px;
+    font-family: 'lato 600', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    padding: 12px 30px;
+    opacity: .8;
+}
+
+header nav ul li.home:hover {
+    color: #ffe562;
+    opacity: 1;
+    padding-bottom: 10px;
+    font-family: 'lato 600', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    padding: 12px 30px;
+}
+
+header nav ul li.faq {
+    color: #ffe383;
+    padding-bottom: 10px;
+    font-family: 'lato 600', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    padding: 12px 30px;
+    opacity: .8;
+}
+
+header nav ul li.faq:hover {
+    color: #ffe562;
+    opacity: 1;
+    padding-bottom: 10px;
+    font-family: 'lato 600', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    padding: 12px 30px;
+}
+
+header nav ul li.contact {
+    color: #ffe383;
+    padding-bottom: 10px;
+    font-family: 'lato 600', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    padding: 12px 30px;
+    opacity: .8;
+}
+
+header nav ul li.contact:hover {
+    color: #ffe562;
+    padding-bottom: 10px;
+    font-family: 'lato 600', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    padding: 12px 30px;
+    opacity: 1;
+}
+
+
+div#header {
+    background-image: url('../images/Contact-bg.png');
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+    min-height: 430px; 
+    margin-bottom: -30px;
+}
+
+div#Contact {
+    text-align: left;
+    background-color: #e4e1ef;
+    padding-top: 55px;
+}
+
+div#Contact h4{
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+div#Contact p{
+    margin-top: 0px;
+    font-size: 16px;
+}
+div#Contact form{
+    display: inline-table;
+    text-align: center;
+}
+div#Contact input{
+    width: 390px;
+    border: 2px solid #57576d;
+    opacity: 0.73;
+    padding: 12px;
+    background-color: #e4e1ef;
+    margin-top: 5px;
+    text-align: left;
+}
+div#Contact textarea {
+    width: 780px;
+    height: 300px;
+    background-color: #e4e1ef;
+    border: none;
+    border: 2px solid #57576d;
+    opacity: 0.73;
+    padding: 12px;
+}
+div#Contact button {
+    color:#57576d;
+    background: transparent;
+    border: 2px solid #57576d;
+    text-shadow:none;
+    text-decoration: none;
+    font-family: 'lato 600', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 50px 10px 50px;
+    opacity: 0.75;
+   
+}
+div#Contact button:hover {
+    color:#e4e1ef;
+    background: #57576d;
+    text-shadow:none;
+    text-decoration: none;
+    font-family: 'lato 600', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 1;
+}
+
+
+div#footer {
+    background-color: #e4e1ef;
+  
+}
+div#footer img {
+     animation-delay: 2.9s;
+    -webkit-animation-delay: 2.9s;
+}
+
+div#footer img {
+    width: 10%;
+    margin: 10px 10px;
+    padding: 0;
+    margin-bottom: -18px;
+    opacity: .8;
+}
+
+
+div#footer nav ul {
+    opacity: .8;
+    list-style-type: none;
+}
+div#footer nav ul li {
+    opacity: .8;
+    display:inline;
+    padding: 30px 30px 15px 30px;
+
+}
+div#footer nav ul li a {
+    opacity: .8;
+    line-height: 2px;
+}
+
+div#footer ul li {
+    display: inline;
+}

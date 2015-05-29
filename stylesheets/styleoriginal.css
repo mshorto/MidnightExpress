@@ -1,0 +1,601 @@
+body {
+    font-family: 'lato 300', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h6 {
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    color: #57576d;
+    font-size: 25px;
+
+}
+
+h4 {
+    margin-bottom: 25px;
+    text-align: center;
+    line-height: 3.5;
+    color: #57576d;
+    font-family: 'Pacifico', cursive;
+    font-size: 55px;
+}
+
+li.home a, a:visited {
+    color:#ffe383;
+}
+
+li.faq a, a:visited {
+    color:#ffe383;
+}
+
+li.contact a, a:visited {
+    color:#ffe383;
+}
+
+
+p {
+    font-size: 18px;
+    color:#636363;
+}
+
+div#header img {
+    width: 16%;
+    margin-left: 0px;
+    animation-delay: 0.9s;
+    -webkit-animation-delay: 0.9s;
+}
+
+div#header {
+    background-image: url('../images/SFskyline-mainimage.png');
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+    min-height: 1050px;
+    border-bottom: 3px solid #ffe383; 
+}
+
+header {
+    margin-top: 10px;
+}
+header h1 {
+    margin-top: -15px;
+    margin:0;
+    display: inline;
+}
+header nav {
+    display:inline;
+}
+header nav ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 15px;
+    margin-right: 0px;
+    animation-delay: 1.2s;
+    -webkit-animation-delay: 1.2s;
+    opacity: .8;
+}
+header nav ul li {
+    display: inline;
+    font-weight: 400;
+    margin-right: 15px;
+    line-height: 1.5;
+    letter-spacing: .2px;
+    opacity: .8;
+}
+
+header nav ul li.home {
+    color: #ffe383;
+    padding-bottom: 10px;
+    font-family: 'lato 600', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    padding: 12px 30px;
+    opacity: .8;
+}
+
+header nav ul li.home:hover {
+    color: #ffe562;
+    opacity: 1;
+    padding-bottom: 10px;
+    font-family: 'lato 600', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    padding: 12px 30px;
+}
+
+header nav ul li.faq {
+    color: #ffe383;
+    padding-bottom: 10px;
+    font-family: 'lato 600', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    padding: 12px 30px;
+    opacity: .8;
+}
+
+header nav ul li.faq:hover {
+    color: #ffe562;
+    opacity: 1;
+    padding-bottom: 10px;
+    font-family: 'lato 600', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    padding: 12px 30px;
+}
+
+header nav ul li.contact {
+    color: #ffe383;
+    padding-bottom: 10px;
+    font-family: 'lato 600', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    padding: 12px 30px;
+    opacity: .8;
+}
+
+header nav ul li.contact:hover {
+    color: #ffe562;
+    padding-bottom: 10px;
+    font-family: 'lato 600', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    padding: 12px 30px;
+    opacity: 1;
+}
+
+
+div#marketing a:hover {
+    text-align: center;
+    color:#ffe383;
+    background: transparent;
+    border: 1px solid #ffe383;
+    text-shadow:none;
+    text-decoration: none;
+    font-family: 'lato 600', Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 14px 30px;
+    margin-top: 50px;
+    animation-delay: 0.9s;
+    -webkit-animation-delay: 0.9s;
+}
+
+div#marketing a{
+    text-align: center;
+    color:#666183;
+    background:#ffe383;
+    border: 1px solid #ffe383;
+    text-shadow:none;
+    text-decoration: none;
+    font-family: 'lato 600', Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 14px 30px;
+    margin-top: 50px;
+}
+header nav ul li a {
+    text-decoration: none;
+}
+
+div#marketing {
+    text-align: center;
+    margin-top: 100px;
+}
+div#marketing h3 { 
+    text-align: center;
+    font-weight: 400;
+    color:#d0c8ed;
+    font-size: 20px;
+    margin:0;
+    letter-spacing: -0.05em;
+    line-height: .0;
+    margin-top: 105px;
+    margin-bottom: -35px;
+    animation-delay: 0.9s;
+    -webkit-animation-delay: 0.9s;
+}
+div#marketing h1 { 
+    text-align: center;
+    font-weight: 400;
+    color:#d0c8ed;
+    font-size: 105px;
+    margin:0;
+    letter-spacing: -0.05em;
+    line-height: 1.4;
+    margin-top: 75px;
+    margin-bottom: 15px;
+    animation-delay: 0.1s;
+    -webkit-animation-delay: 0.15s;
+}
+div#headline { 
+    text-align: center;
+    font-weight: 400;
+    color:#d0c8ed;
+    font-size: 105px;
+    margin:0;
+    letter-spacing: -0.05em;
+    line-height: 1.4;
+    margin-top: 75px;
+    margin-bottom: 15px;
+    animation-delay: 0.2s;
+    -webkit-animation-delay: 0.25s;
+}
+
+div#marketing h2 {
+    text-align: center;
+    color:#d0c8ed;
+    font-size: 20px;
+    padding: 30px;
+    margin-bottom: 30px;
+    animation-delay: 0.9s;
+    -webkit-animation-delay: 0.9s;
+}
+div#marketing p {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: 335px;
+    font-weight: bold;
+    animation-delay: 1.8s;
+    -webkit-animation-delay: 1.8s;
+}
+
+/* Beginnig of "How to ride" Section */
+
+div#Catch_Ride img {
+    margin-bottom: 20px;
+    margin-top: -15px;
+}
+div#Catch_Ride h4 {
+    text-align: center;
+    line-height: 3.5;
+    color: #57576d;
+    font-family: 'Pacifico', cursive; 
+    font-size: 55px;
+    margin-top: -50px;
+}
+
+div#Catch_Ride {
+    text-align: center;
+    padding:60px 0;
+    margin-bottom: 0px;
+    background-color: ##d0c8ed;
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+    min-height: 550px; 
+}
+div#Catch_Ride h3 {
+    color:#5e5e5e;
+    line-height: 1.5;
+    font-weight: bold;
+}
+div#Catch_Ride p {
+    font-size: 16px;
+}
+div#computericon {
+    text-align: center; 
+}
+
+div#locationicon {
+    text-align: center;
+}
+
+div#busicon {
+    text-align: center;
+}
+
+/* Beginnig of "The Route" Section */
+
+div#The_Route {
+    background-image: url('../images/TheRoute-bg4.png');
+    background-size: cover;
+    background-position: center center;
+    background-color: #fff;
+    padding-top: 80px;
+    padding-bottom: 70px;
+    min-height: 650px;
+    background-image max-width: 100%;
+    background-image height: auto;
+}
+
+div#The_Route h4 {
+    text-align: center;
+    margin-bottom: -20px;
+    margin-top: -40px;
+    color: #fff;
+}
+div#The_Route h2 {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: -20px;
+}
+div#The_Route h3 {
+    line-height: 1.5;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+div#The_Route img {
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 45px;
+    margin-bottom: -15px;
+}
+
+div#The_Route p {
+    line-height: 1.5;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+div#The_Route a {
+    opacity: .8;
+    text-decoration: none;
+}
+div#The_Route a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+ div#sanfranciscoStop #paloaltostop #Sunnyvalestop #mountainviewstop {
+    margin-top: -20px;
+ }
+
+
+
+/* Beginnig of "Order your Tickets" Section */
+
+div#Ticket {
+    margin-bottom: 100px;
+    min-height: 450px;
+    text-align: center;
+}
+
+div#Ticket p{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+div#Ticket h4 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+div#Ticket a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #57576d; 
+    opacity: .8;
+    margin-bottom: 10px;
+}
+div#Ticket a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+div#Ticket input{
+    width: 150px;
+    border: 2px solid #7aa59e;
+    opacity: 0.73;
+    padding: 12px;
+    margin-bottom: -55px;
+    margin-top: -25px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'lato 300', Helvetica, Arial, sans-serif;
+}
+div#Ticket iframe{
+    height: 200%;
+    width: 200%;
+}
+
+
+/* Beginnig of "contact" Section */
+div#Contact {
+    text-align: center;
+    background-color: #e4e1ef;
+    border-top: 4px solid #57576d;
+    padding-bottom: 5px;
+}
+div#Contact h4{
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+div#Contact p{
+    margin-top: -20px;
+    font-size: 16px;
+}
+div#Contact form{
+    display: inline-table;
+    text-align: center;
+}
+div#Contact input{
+    width: 550px;
+    border: 2px solid #57576d;
+    opacity: 0.73;
+    padding: 12px;
+    margin-top: 5px;
+    text-align: left;
+}
+div#Contact textarea {
+    width: 550px;
+    height: 300px;
+    border: 2px solid #57576d;
+    opacity: 0.73;
+    padding: 12px;
+}
+div#Contact button {
+    color:#57576d;
+    background: transparent;
+    border: 2px solid #57576d;
+    text-shadow:none;
+    text-decoration: none;
+    font-family: 'lato 600', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 50px 10px 50px;
+    opacity: 0.75;
+   
+}
+div#Contact button:hover {
+    color:#e4e1ef;
+    background: #57576d;
+    text-shadow:none;
+    text-decoration: none;
+    font-family: 'lato 600', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 1;
+}
+
+
+/* Beginnig of Closing CTA Section */
+
+div#email {
+    background-color: #6775db;
+    background-image: url('../images/Order-bg.png');
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+    border-top: 4px solid #ffe383;
+    min-height: 250px;
+    text-align: center;
+    padding:120px 0 20px;
+}
+div#email h5 {
+    text-align: center;
+    margin-top: -70px;
+    margin-bottom: 0px;
+    line-height: 2.5;
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    font-size: 55px;
+}
+
+div#email h6 {
+    font-size: 18px;
+    font-weight: 400;
+    color:#fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+div#email form {
+    margin:0 0 15px 0;
+    padding:0;
+}
+div#email form input {
+    display: inline;
+    width:400px;
+    border: 3px solid #ffe383;
+    opacity: 0.73;
+    padding: 12px;
+}
+div#email button {
+    color:#ffe383;
+    background: transparent;
+    border: 2px solid #ffe383;
+    text-shadow:none;
+    text-decoration: none;
+    font-family: 'lato 400', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 50px 10px 50px;
+    opacity: 0.75;
+    letter-spacing: .7;
+   
+}
+div#email button:hover {
+    color:#e4e1ef;
+    background: #ffe383;
+    text-shadow:none;
+    text-decoration: none;
+    font-family: 'lato 400', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 1;  
+    letter-spacing: .7;
+}
+
+div#press {
+   background-color: #414151; 
+   border-top: 4px solid #7aa59e;
+   text-align: center;
+   padding-bottom: 5px;
+}
+div#press h4 {
+    font-size: 35px;
+    margin-top: -10px;
+    margin-bottom: -75px;
+    color: #7aa59e;
+}
+div#press ul li {
+    display: inline;
+}
+div#press img {
+    width: 14%;
+    margin: 8px;
+    opacity: .7;
+}
+div#press img:hover {
+    width: 14%;
+    margin: 8px;
+    opacity: 1;
+}
+    
+
+div#footer {
+    
+    font-family: 'lato 300', Helvetica, Arial, sans-serif; 
+    background-color: #35353f;
+    color:#ffe383;
+    font-size: 16px;
+    margin-bottom: -30px;
+    margin-top: -15px;
+    line-height: 1.5;
+    letter-spacing: .3px;
+}
+div#footer nav {
+    margin-top:25px;
+}
+
+div#footer nav ul li:hover {
+    color: #ffe383;
+    padding-bottom: -10px;
+    opacity: 1;
+}
+
+
+div#footer img {
+    width: 10%;
+    margin: 10px 10px;
+    padding: 0;
+    margin-bottom: -25px;
+    opacity: .8;
+}
+
+
+div#footer nav ul {
+    opacity: .8;
+    list-style-type: none;
+}
+div#footer nav ul li {
+    opacity: .8;
+    display:inline;
+    padding: 30px 30px 15px 30px;
+
+}
+div#footer nav ul li a {
+    opacity: .8;
+    line-height: 2px;
+    color:#ffe383;
+    text-decoration: none;
+}
+
+div#footer ul li {
+    display: inline;
+}
+
+
+.right {
+    text-align: right;
+}
